@@ -1,0 +1,51 @@
+//@use 'styles/_colors.scss'; // assuming a styles directory under src/
+// Font 
+
+$font-size: 20px;
+$font-weight-thick: 700;
+$font-weight-normal: 400;
+$font-primary: 'Oswald', sans-serif;
+$font-secondary: 'Montserrat', sans-serif;
+
+// Primary - calls-to-action  buttons  important information
+
+$primary-color: #C3073F;
+$primary-color-accent: #950740;
+$primary-color-accent-2: #FF073F;
+
+// Secondary - secondary action buttons  things that doesnt need immediate attention
+
+$secondary-color: #6F2232;
+
+// Neutral - text  background  doesnt need to compete for attention
+
+$neutral-text-color: #FFFFFF;
+$neutral-text-less-important-color: #4E4E50;
+
+$neutral-background-color: #1c1c1f; //#1A1A1D;
+$lighter-background-color: #31313c; //#252529;
+$darker-background-color: #282830; //#202024;
+
+
+@import './styles/general';
+@import './styles/header';
+@import './styles/caloriecounter';
+@import './styles/meals';
+@import './styles/meal';
+@import './styles/navbar';
+@import './styles/profile';
+@import './styles/settings';
+@import './styles/addfood';
+@import './styles/food';
+@import './styles/barcodescanner';
+@import './styles/mealdetails';
+@import './styles/login';
+@import './styles/register';
+@import './styles/fooddetails';
+@import './styles/storages';
+@import './styles/storage';
+@import './styles/storagedetails';
+@import './styles/storedfood';
+@import './styles/personaldata';
+@import './styles/adjustcalories';
+@import './styles/addfoodtodatabase';

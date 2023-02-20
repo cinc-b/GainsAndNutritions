@@ -1,0 +1,30 @@
+.Navbar {
+    background-color: $darker-background-color;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 70px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.NavbarItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    font-family: $font-primary;
+    font-size: 18px;
+    //letter-spacing: 1px;
+}
+
+.NavbarIcon{
+    color: #f60950; //#C3073F;
+}

@@ -1,0 +1,202 @@
+{
+  "calories": 2091,
+  "carbs": 306,
+  "protein": 17,
+  "fat": 34,
+  "_id": "63b98023a41b2d0778dec3a7",
+  "date": "2023-01-07T23:00:00.000Z",
+  "user": "63b46de06bcbf94aa007f413",
+  "meals": [
+    {
+      "calories": 0,
+      "carbs": 0,
+      "protein": 0,
+      "fat": 0,
+      "food": [],
+      "id": 0,
+      "name": "Breakfast"
+    },
+    {
+      "calories": 0,
+      "carbs": 0,
+      "protein": 0,
+      "fat": 0,
+      "food": [],
+      "id": 1,
+      "name": "Lunch"
+    },
+    {
+      "calories": 0,
+      "carbs": 0,
+      "protein": 0,
+      "fat": 0,
+      "food": [],
+      "id": 2,
+      "name": "Dinner"
+    },
+    {
+      "calories": 2091,
+      "carbs": 306,
+      "protein": 17,
+      "fat": 34,
+      "food": [
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        },
+        {
+          "code": "5449000131805",
+          "name": "Coca Cola 330ml",
+          "kcal": 123,
+          "carbs": 18,
+          "protein": 1,
+          "fat": 2,
+          "weight": 330
+        }
+      ],
+      "id": 3,
+      "name": "Snack"
+    }
+  ],
+  "__v": 0
+}

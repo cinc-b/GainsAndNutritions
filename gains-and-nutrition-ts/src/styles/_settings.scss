@@ -1,0 +1,18 @@
+.Settings{
+    background-color: $neutral-background-color;
+    min-height: 100vh;
+    min-width: 100vw; 
+}
+
+.WIP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 90vh;
+    color:white;
+    font-size: larger;
+
+    font-family: $font-primary;
+    font-size: 28px;
+}

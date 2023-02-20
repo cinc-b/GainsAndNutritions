@@ -1,0 +1,155 @@
+.CalorieCounter{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    //border: 2px solid $neutral-text-less-important-color;
+    border-radius: 5px;
+
+    min-width: 90vw;
+    min-height: 30vh;
+
+    background-color: $darker-background-color;
+}
+
+.CalorieDisplay {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Calories{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: small;
+    color: white;
+    font-family: $font-primary;
+
+    :nth-child(2){
+        font-family: $font-secondary;
+    }
+    min-width:  90px;
+}
+
+.CalorieVisual{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+    
+    padding-top: 1vh;
+
+    :nth-child(2){
+        font-size: small;
+        margin-top: -10px;
+        z-index: 5;
+    }
+
+}
+
+.HalfArc {
+    position: relative;
+    width: 150px;
+    height: 75px;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border-bottom: 0;
+    background: $neutral-background-color;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.HalfArc:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    border-radius: 50%;
+    background-image: conic-gradient($primary-color, $primary-color-accent calc(var(--percentage, 0) / 2), #bbb 0);
+    transition: transform .5s ease-in-out;
+    z-index: 1;
+    transform: rotate(270deg);
+}
+
+.HalfArc:after {
+    content: "";
+    position: absolute;
+    display: block;
+    background: $darker-background-color;
+    z-index: 2;
+    width: calc(100% - 32px);
+    height: calc(200% - 32px);
+    border-radius: 50%;
+    top: 16px;
+    left: 16px;
+}
+
+.HalfArc span {
+    color: white;
+    z-index: 3;
+    text-align: center;
+    padding-top: 3vh;
+
+    font-family: $font-primary;;
+}
+
+.Progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    padding: 0 2px;
+    display: flex;
+    height: 5px;
+    width: 15vw;
+}
+
+.NutritionDisplay{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1vh;
+    
+}
+
+.Nutrition {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color:white;
+    font-size: small;
+
+    .Text{
+        font-family: $font-primary;
+    }
+}
+
+.Grams {
+    padding-top: 5px;
+    font-size:smaller;
+    font-family: $font-secondary;
+}
+
+
+.MealsDate{
+    margin-top: 10px;
+    margin-bottom: -10px;
+
+    color: $neutral-text-less-important-color;
+    font-family: $font-primary;
+}
+  

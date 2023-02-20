@@ -1,0 +1,27 @@
+.Storages{
+    background-color: $neutral-background-color;
+    min-height: 100vh;
+    min-width: 100vw; 
+}
+.StoragesColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AddExtraMeal{
+    min-width: 90vw;
+    min-height: 60px;
+    padding: 4px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border-radius: 5px;
+  
+    background-color: $darker-background-color;
+  
+  
+    margin-top: 20px;
+}

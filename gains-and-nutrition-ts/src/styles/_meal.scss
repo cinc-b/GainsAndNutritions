@@ -1,0 +1,51 @@
+.Meal {
+    min-width: 90vw;
+    min-height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    //border: 2px solid $neutral-text-less-important-color;
+    border-radius: 5px;
+
+    background-color: $darker-background-color;
+
+    margin-bottom: 20px;
+}
+
+.MealIconMealName{
+    display: flex;
+    padding-left: 10px;
+}
+
+.MealIcon{
+    color: white;
+}
+
+.AddIcon{
+    padding-right: 10px;
+    color: white;
+}
+
+.MealName {
+    padding-left: 5px;
+    color: white;
+    font-size:large;
+
+    font-family: $font-primary;
+}
+
+.AteKcalAddIcon{
+    display: flex;
+    align-items: center;
+}
+
+.AteKcal {
+    color: white;
+    font-size: small;
+
+    padding-right: 10px;
+
+    font-family: $font-secondary;
+}

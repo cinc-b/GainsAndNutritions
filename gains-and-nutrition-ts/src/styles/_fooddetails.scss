@@ -1,0 +1,172 @@
+.FoodDetails{
+    background-color: $neutral-background-color;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.FoodDetailsHeader{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+    filter: invert(100)
+}
+
+.FoodDetailsName-FoodDetailsBrand{
+    min-width: 100vw;
+    min-height: 20vh;
+
+    background: rgb(28,28,31);
+    background: linear-gradient(190deg, rgba(28,28,31,1) 0%, rgba(49,49,60,1) 100%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FoodDetailsName{
+    font-family: $font-primary;
+    font-size: 24px;
+    color: white;
+}
+
+.FoodDetailsBrand{
+    font-family: $font-secondary;
+    font-size: 16px;
+    color: white;
+}
+
+.FoodDetailsMainNutriments{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+
+    color: white;
+
+    border-bottom: 2px solid $darker-background-color;
+    padding-bottom: 20px;
+}
+
+.FoodDetailsMainNutriment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-width: 64px;
+}
+
+.FoodDetailsMainValue{
+    font-family: $font-primary;
+}
+
+.FoodDetailsMainNutrimentName{
+    font-family: $font-secondary;
+}
+
+.FoodDetailsNutriments{
+    margin-top: 20px;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.FoodDetailsNutriment{
+    display: flex;
+    justify-content: center;
+    font-family: $font-primary;
+    font-size: 20px;
+    color: white;
+}
+
+.FoodDetailsNutrimentName-FoodDetailsNutrimentValue{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.FoodDetailsNutrimentName{
+    font-family: $font-primary;
+    font-size: 20px;
+    color: white;
+}
+
+.FoodDetailsNutrimentValue{
+    font-family: $font-secondary;
+    color:white;
+}
+
+.FoodDetailsSpecialNutrimentName-FoodDetailsSpecialNutrimentValue{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.FoodDetailsNavbar {
+    background-color: $darker-background-color;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    min-height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.WeightInput-WeightUnit{
+    display: flex;
+}
+
+.WeightInput{
+    border: 2px solid $lighter-background-color;
+    border-radius: 5px;
+
+
+    font-family: $font-primary;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+
+    max-width: 60px;
+
+    background-color: $darker-background-color;
+
+    &:focus{
+        outline: none;
+    }
+}
+
+.WeightUnit{
+    margin-left: 10px;
+    font-family: $font-primary;
+    font-size: 24px;
+    color: white;
+}
+
+.FoodDetailsButton{
+
+    min-width: 80px;
+
+    padding: 8px;
+
+    border:none;
+
+    font-family: $font-primary;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+    border-radius: 5px;
+
+    background-color:$primary-color-accent;
+}
+
+

@@ -1,0 +1,101 @@
+.MealDetails {
+    background-color: $neutral-background-color;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.MealDetailsContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 100px;
+}
+
+.MealDetailsCalorieCounter  {
+    min-height: 200px;
+    min-width: 90vw;
+
+    border-radius: 5px;
+
+    background-color: $darker-background-color;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    color: white;
+
+    margin-bottom: 15px;
+}
+
+.MealCaloriesVisual{
+
+    display: flex;
+    justify-content: center;
+
+    font-family: $font-primary;
+    font-size: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+.MealNutritions{
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.MealNutrition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 60px;
+}
+
+.MealNutritionGrams{
+    font-family: $font-primary;
+}
+
+.MealNutritionText{
+    font-family: $font-secondary;
+}
+
+.SolidMealDetails{
+    border: 1px solid $lighter-background-color;
+    width: 90vw;
+}
+
+.MealDetailsAddFoodButton{
+    background-color: $primary-color;
+    overflow: hidden;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 75px;
+    font-family: $font-secondary;
+    color: white;
+
+    min-height: 70px;
+    min-width: 70px;
+
+    border-radius: 50px;
+
+    box-shadow: 0px 0px 25px 1px black;
+
+    //box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.25) 0px -12px 30px, rgba(0, 0, 0, 0.25) 0px 4px 6px, rgba(0, 0, 0, 0.25) 0px 12px 13px, rgba(0, 0, 0, 0.25) 0px -3px 5px;
+}
+
+.SVG {
+    width:  30px;
+    height: 30px;
+    filter: invert(100)
+}

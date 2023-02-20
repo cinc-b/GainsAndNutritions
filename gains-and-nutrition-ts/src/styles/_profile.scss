@@ -1,0 +1,129 @@
+.Profile {
+  background-color: $neutral-background-color;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.ProfileHeader {
+  background-color: $lighter-background-color;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: $font-size;
+  color: white;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.ProfileDisplay {
+  //border: 2px solid $neutral-text-less-important-color;
+  border-radius: 5px;
+
+  min-width: 90vw;
+  
+
+  padding-bottom: 2.5vh;
+
+  background-color: $darker-background-color;
+}
+
+.AccountIconNameAge {
+  display: flex;
+  align-items: center;
+  color: white;
+
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 2.5vh;
+  padding-bottom: 2vh;
+
+  border-bottom: 2px solid $neutral-background-color;
+}
+
+.NameAge {
+  padding-left: 10px;
+}
+
+.Name {
+  font-size: 36px;
+  font-family: $font-primary;
+}
+
+.Age {
+  font-size: 16px;
+  padding-left: 5px;
+  font-family: $font-secondary;
+}
+
+.WeightGoalDiet {
+  min-height: 12.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: white;
+}
+
+.WGDText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: calc(7vw + 5px);
+  padding-right: calc(7vw + 5px);
+  padding-top: 5px;
+}
+
+.WGDDescription {
+  font-size: 20px;
+  font-family: $font-primary;
+}
+
+.WGDValue {
+  font-size: 14px;
+  font-family: $font-secondary;
+}
+
+.Personalize {
+  margin-top: 20px;
+  min-width: 90vw;
+
+}
+
+.PersonalizeHeader {
+  color: white;
+  font-size: 28px;
+
+  font-family: $font-primary;
+}
+
+.PersonalizeContent{
+    margin-top: 20px;
+
+    //border: 2px solid $neutral-text-less-important-color;
+    border-radius: 5px;
+
+
+    background-color: $darker-background-color;
+}
+
+.Personalization{
+    min-height: 50px;    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    font-family: $font-primary;
+    font-size: 20px;
+}
+
+.Solid {
+  margin: 0;
+  border: 1px solid $neutral-background-color;
+}

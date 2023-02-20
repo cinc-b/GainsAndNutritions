@@ -1,0 +1,131 @@
+.Food {
+    margin-top: 15px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: $darker-background-color;
+
+    border-radius: 5px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+    color: white;
+
+    min-width: 80vw;
+}
+
+.FoodNameFoodDelete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FoodDelete{
+    font-family: $font-primary;
+    font-size: 24px;
+    color: white;
+    max-height: 36px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.FoodDetail {
+    border-bottom: 2px solid $neutral-background-color;
+
+    padding-bottom: 10px;
+}
+
+.FoodName{
+    font-family: $font-primary;
+    font-size: 24px;
+}
+
+.FoodBrand-FoodGram{
+    display: flex;
+}
+
+.FoodGram-FoodKcal {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: $font-secondary;
+    padding-top: 4px;
+    
+}
+
+.FoodNutritions{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FoodNutrition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FoodNutritionGrams{
+    font-family: $font-primary;
+}
+
+.FoodNutritionText {
+    font-family: $font-secondary;
+    font-size: 12px;
+}
+
+.FoodContent{
+    position: relative;
+}
+
+.FoodLink{
+    position: absolute;
+    left:5vw;
+    top: 15px;
+
+    border-radius: 5px;;
+
+    min-width: 90vw;
+    min-height: 120px;
+
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    font-family: $font-primary;
+    font-size: 40px;
+    color: white;
+}
+
+.FoodDeleteButton{
+    background-color: $primary-color;
+    min-width: 70px;
+    min-height: 70px;
+
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 0px 0px 25px 1px black;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+
+.SVGFood {
+    width:  40px;
+    height: 40px;
+    filter: invert(100);
+}
+

@@ -1,0 +1,58 @@
+.StoredFood{
+    min-width: 90vw;
+
+    background-color: $darker-background-color;
+    
+    margin-top: 20px;
+
+    border-radius: 5px;
+
+}
+
+.StoredFoodName-StoredFoodBrand-StoredFoodWeight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.StoredFoodName-StoredFoodBrand{
+    margin-left: 20px;
+
+    color: white;
+    padding: 10px 0px;
+}
+
+.StoredFoodName{
+    font-family: $font-primary;
+    font-size: 24px;
+}
+
+.StoredFoodBrand{
+    font-family: $font-secondary;
+}
+
+.StoredFoodWeight{
+    margin-right: 20px;
+    font-family: $font-primary;
+    font-size: 24px;
+    color: white;
+}
+
+.StoredFoodWeightInput{
+    max-width: 60px;
+
+
+    font-family: $font-primary;
+    font-size: 24px;
+    color: white;
+    text-align: right;
+
+    
+    border: none;
+    background-color: $darker-background-color;
+    
+    &:focus{
+        outline: none;
+    }
+}
+

@@ -1,0 +1,16 @@
+.AdjustCalories{
+    background-color: $neutral-background-color;
+    min-height: 100vh;
+    min-width: 100vw; 
+}
+
+.AdjustCaloriesHeaderText{
+    padding-left: 10px;
+    font-size: 28px;
+
+    font-family: $font-primary;
+}
+
+.ClickableDataColumn{
+    cursor: pointer;
+}

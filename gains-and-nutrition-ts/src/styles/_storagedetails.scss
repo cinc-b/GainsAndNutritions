@@ -1,0 +1,11 @@
+.StorageDetails{
+    background-color: $neutral-background-color;
+    min-height: 100vh;
+    min-width: 100vw; 
+}
+
+.StorageDetailsColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

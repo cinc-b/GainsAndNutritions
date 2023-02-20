@@ -1,0 +1,72 @@
+.Meals {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
+
+.AddMeal {
+  min-width: 90vw;
+  min-height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 5px;
+
+  background-color: $darker-background-color;
+
+
+  margin-bottom: 20px;
+}
+
+.AddMealIcon{
+  color: white;
+}
+
+
+.AddMealButton{
+
+  min-height: 40px;
+  min-width: 60%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 8px;
+
+  font-family: $font-primary;
+  font-size: 24px;
+  color: white;
+
+  border-radius: 5px;
+
+  background-color:$primary-color-accent;
+
+  border:none;
+}
+
+
+.AddMealInput{
+  border: 0;
+
+  min-height: 40px;
+  min-width: 80%;
+
+  padding: 8px;
+
+  font-family: $font-secondary;
+  font-size: 16px;
+  color: white;
+
+  border-radius: 5px;
+
+  background-color: $darker-background-color;
+  
+
+  &:focus{
+      outline: none;
+  }
+}
